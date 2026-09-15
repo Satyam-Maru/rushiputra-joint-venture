@@ -1,0 +1,131 @@
+/* ── Contact Section ────────────────────────────── */
+.contact {
+  background: var(--color-white);
+}
+
+.contact__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* ── Left: Info ──────────────────────────────────── */
+.contact__lead {
+  font-size: 16px;
+  color: var(--color-muted);
+  line-height: 1.8;
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+
+/* Details list */
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 36px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.contact-detail:first-child {
+  border-top: 1px solid var(--color-border);
+}
+
+.contact-detail__icon {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-detail__label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-muted);
+  margin-bottom: 3px;
+}
+
+.contact-detail__value {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.contact-detail__value--link {
+  transition: color 0.2s;
+}
+
+.contact-detail__value--link:hover {
+  color: var(--color-accent);
+}
+
+/* Action buttons */
+.contact__actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* ── Right: Map ──────────────────────────────────── */
+.contact__map {
+  width: 100%;
+  height: 420px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+.contact__map-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--color-muted);
+}
+
+.contact__map-icon {
+  font-size: 36px;
+}
+
+.contact__map-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.contact__map-sub {
+  font-size: 13px;
+  color: var(--color-muted);
+}
+
+/* ── Responsive ─────────────────────────────────── */
+@media (max-width: 860px) {
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .contact__map {
+    height: 280px;
+  }
+}

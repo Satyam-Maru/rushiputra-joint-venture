@@ -1,0 +1,118 @@
+/* ── Quality Section ────────────────────────────── */
+.quality {
+  background: var(--color-white);
+}
+
+.quality__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+/* ── Left: Content ───────────────────────────────── */
+.quality__lead {
+  font-size: 16px;
+  color: var(--color-muted);
+  line-height: 1.8;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Commitments */
+.quality__commitments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--color-border);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.quality__commitment {
+  background: var(--color-white);
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.quality__commitment-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: -0.5px;
+}
+
+.quality__commitment-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ── Right: Standard Cards ───────────────────────── */
+.quality__standards {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.quality-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--color-border);
+  transition: var(--transition);
+}
+
+.quality-card:first-child {
+  border-top: 1px solid var(--color-border);
+}
+
+.quality-card:hover {
+  padding-left: 8px;
+}
+
+.quality-card__icon {
+  font-size: 22px;
+  width: 44px;
+  height: 44px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.quality-card__title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 6px;
+}
+
+.quality-card__desc {
+  font-size: 13px;
+  color: var(--color-muted);
+  line-height: 1.7;
+}
+
+/* ── Responsive ─────────────────────────────────── */
+@media (max-width: 860px) {
+  .quality__inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+@media (max-width: 400px) {
+  .quality__commitments {
+    grid-template-columns: 1fr;
+  }
+}

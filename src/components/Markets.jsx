@@ -1,0 +1,95 @@
+import './Markets.css';
+
+const MARKETS = [
+  {
+    code: 'in',
+    country: 'India',
+    role: 'Home Base & Sourcing Hub',
+    desc: 'Our primary sourcing and operations hub — where every trade journey begins.',
+    highlight: true,
+  },
+  {
+    code: 'us',
+    country: 'United States',
+    role: 'Premium Buyer Market',
+    desc: 'A key destination for high-grade wood and plywood exports.',
+  },
+  {
+    code: 'pa',
+    country: 'Panama',
+    role: 'Logistics & Trade Partner',
+    desc: 'A strategic hub enabling smooth transhipment routes worldwide.',
+  },
+  {
+    code: 'co',
+    country: 'Colombia',
+    role: 'Growing Export Destination',
+    desc: 'Rapidly growing demand for plywood and metal scrap imports.',
+  },
+  {
+    code: 'ke',
+    country: 'Kenya',
+    role: 'Strategic African Trade Link',
+    desc: 'Our gateway into the booming East African raw materials market.',
+  },
+  {
+    code: null,
+    country: 'More Markets',
+    role: 'Expanding Worldwide',
+    desc: 'Actively expanding into new regions and trade corridors worldwide.',
+  },
+];
+
+export default function Markets() {
+  return (
+    <section id="markets" className="markets section">
+      <div className="container">
+
+        {/* Header */}
+        <div className="markets__header">
+          <span className="section-label">Where We Operate</span>
+          <h2 className="section-title">Our Global Reach</h2>
+          <p className="section-subtitle">
+            Trusted by buyers and suppliers across continents — from our sourcing hub in India to markets worldwide.
+          </p>
+        </div>
+
+        {/* Grid */}
+        <div className="markets__grid">
+          {MARKETS.map((m) => (
+            <div key={m.code ?? 'more'} className={`market-card${m.highlight ? ' market-card--highlight' : ''}`}>
+
+              {/* Top row: flag + role */}
+              <div className="market-card__top">
+                {m.code ? (
+                  <img
+                    src={`https://flagcdn.com/w80/${m.code}.png`}
+                    srcSet={`https://flagcdn.com/w160/${m.code}.png 2x`}
+                    alt={`${m.country} flag`}
+                    className="market-card__flag"
+                    loading="lazy"
+                  />
+                ) : (
+                  <span className="market-card__globe">🌍</span>
+                )}
+                <span className="market-card__role">{m.role}</span>
+              </div>
+
+              {/* Country name + desc */}
+              <h3 className="market-card__country">{m.country}</h3>
+              <p className="market-card__desc">{m.desc}</p>
+
+            </div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div className="markets__cta">
+          <a href="#contact" className="btn-primary">Get in Touch</a>
+          <p className="markets__cta-sub">Interested in trading with us? We'd love to connect.</p>
+        </div>
+
+      </div>
+    </section>
+  );
+}

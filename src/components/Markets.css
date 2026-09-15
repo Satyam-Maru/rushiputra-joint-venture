@@ -1,0 +1,115 @@
+/* ── Markets Section ────────────────────────────── */
+.markets {
+  background: var(--color-bg);
+}
+
+.markets__header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.markets__header .section-subtitle {
+  margin: 0 auto;
+}
+
+/* ── Grid ────────────────────────────────────────── */
+.markets__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+/* ── Card ────────────────────────────────────────── */
+.market-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: var(--transition);
+}
+
+.market-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+
+.market-card--highlight {
+  border-color: var(--color-accent);
+  background: rgba(30, 58, 95, 0.03);
+}
+
+/* ── Top Row: Flag + Role ────────────────────────── */
+.market-card__top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.market-card__flag {
+  width: 48px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  flex-shrink: 0;
+}
+
+.market-card__globe {
+  font-size: 28px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.market-card__role {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-gold);
+}
+
+/* ── Country + Desc ──────────────────────────────── */
+.market-card__country {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.market-card__desc {
+  font-size: 13px;
+  color: var(--color-muted);
+  line-height: 1.7;
+}
+
+/* ── CTA ─────────────────────────────────────────── */
+.markets__cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.markets__cta-sub {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+/* ── Responsive ─────────────────────────────────── */
+@media (max-width: 900px) {
+  .markets__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .markets__grid {
+    grid-template-columns: 1fr;
+  }
+}
