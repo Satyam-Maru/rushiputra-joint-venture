@@ -69,16 +69,6 @@ export default function Contact() {
             </a>
           </div>
         </div>
-
-        {/* Right — map placeholder */}
-        <div className="contact__map">
-          <div className="contact__map-inner">
-            <span className="contact__map-icon">📍</span>
-            <p className="contact__map-label">India</p>
-            <p className="contact__map-sub">Map will be embedded here</p>
-          </div>
-        </div>
-
       </div>
     </section>
   );

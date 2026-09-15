@@ -11,13 +11,13 @@ export default function Hero() {
           </div>
 
           <h1 className="hero__headline">
-            Connecting Global Markets with
-            <em> Reliable Indian Supply</em>
+            Connecting Global Markets with<br />
+            <em>Reliable Indian Supply</em>
           </h1>
 
           <p className="hero__sub">
-            Trusted importers &amp; exporters of Wood, Plywood, and Metal Scrap
-            — delivering quality, on time, worldwide.
+            Trusted importers &amp; exporters of Wood, Plywood, and Metal Scrap —<br />
+            delivering quality, on time, worldwide.
           </p>
 
           <div className="hero__actions">

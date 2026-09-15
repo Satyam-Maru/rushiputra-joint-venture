@@ -176,9 +176,14 @@
 
 /* ── Responsive ─────────────────────────────────── */
 @media (max-width: 768px) {
+  .gallery__header {
+    margin-bottom: 28px;
+  }
+
   .gallery__grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 220px);
+    margin-bottom: 0;
   }
 
   .gallery-item--0 {

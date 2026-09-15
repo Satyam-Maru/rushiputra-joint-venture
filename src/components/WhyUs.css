@@ -106,8 +106,13 @@
 
 /* ── Responsive ─────────────────────────────────── */
 @media (max-width: 900px) {
+  .whyus__header {
+    margin-bottom: 28px;
+  }
+
   .whyus__grid {
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 0;
   }
 
   .whyus__banner {

@@ -107,7 +107,11 @@
 @media (max-width: 860px) {
   .quality__inner {
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 32px;
+  }
+
+  .quality__lead {
+    margin-bottom: 24px;
   }
 }
 

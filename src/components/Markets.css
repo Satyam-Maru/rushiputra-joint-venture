@@ -103,8 +103,12 @@
 
 /* ── Responsive ─────────────────────────────────── */
 @media (max-width: 900px) {
+  .markets__header {
+    margin-bottom: 28px;
+  }
   .markets__grid {
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 32px;
   }
 }
 

@@ -1,9 +1,15 @@
 /* ── Hero Section ───────────────────────────────── */
 .hero {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 68px; /* offset for fixed navbar */
   background: var(--color-white);
   border-bottom: 1px solid var(--color-border);
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .hero__inner {
@@ -11,13 +17,21 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 72px;
+  padding: 48px 0;
   max-width: 760px;
+  width: 100%;
   margin: 0 auto;
 }
 
-/* ── LEFT: Copy ──────────────────────────────────── */
+/* ── Content ─────────────────────────────────────── */
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
 .hero__badge {
   display: inline-flex;
   align-items: center;
@@ -47,12 +61,15 @@
 }
 
 .hero__headline {
-  font-size: clamp(32px, 4.5vw, 52px);
+  font-size: clamp(32px, 4.5vw, 54px);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.2;
   color: var(--color-text);
   margin-bottom: 20px;
   letter-spacing: -0.5px;
+  text-align: center;
+  text-wrap: balance;
+  max-width: 800px;
 }
 
 .hero__headline em {
@@ -64,8 +81,10 @@
   font-size: 17px;
   color: var(--color-muted);
   line-height: 1.75;
-  margin-bottom: 36px;
-  max-width: 540px;
+  margin: 0 auto 36px auto;
+  max-width: 580px;
+  text-align: center;
+  text-wrap: balance;
 }
 
 .hero__actions {
@@ -74,27 +93,23 @@
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
-  margin-bottom: 52px;
+  margin: 0 auto;
 }
-
-
-
-
 
 /* ── Responsive ─────────────────────────────────── */
 @media (max-width: 900px) {
   .hero__inner {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-
-  .hero__stats {
-    gap: 20px;
-    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 36px;
   }
 }
 
 @media (max-width: 480px) {
+  .hero__inner {
+    padding-top: 32px;
+    padding-bottom: 28px;
+  }
+
   .hero__actions {
     flex-direction: column;
     align-items: stretch;

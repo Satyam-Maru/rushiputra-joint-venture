@@ -130,6 +130,7 @@
   .footer__inner {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    padding: 44px 24px 36px;
   }
 
   .footer__brand {
@@ -140,6 +141,7 @@
 @media (max-width: 480px) {
   .footer__inner {
     grid-template-columns: 1fr;
+    padding: 36px 16px 28px;
   }
 
   .footer__brand {

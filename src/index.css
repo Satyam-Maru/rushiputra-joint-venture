@@ -74,6 +74,21 @@ button {
   padding: 96px 0;
 }
 
+@media (max-width: 768px) {
+  .section {
+    padding: 48px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 36px 0;
+  }
+  .container {
+    padding: 0 16px;
+  }
+}
+
 .section-label {
   display: inline-block;
   font-size: 13px;

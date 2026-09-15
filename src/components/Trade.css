@@ -131,8 +131,15 @@
 
 /* ── Responsive ─────────────────────────────────── */
 @media (max-width: 900px) {
+  .trade__header {
+    margin-bottom: 28px;
+  }
   .trade__grid {
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 32px;
+  }
+  .trade__process {
+    margin-bottom: 32px;
   }
 }
 
