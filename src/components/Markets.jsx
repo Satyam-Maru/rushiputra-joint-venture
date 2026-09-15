@@ -47,10 +47,10 @@ export default function Markets() {
 
         {/* Header */}
         <div className="markets__header">
-          <span className="section-label">Where We Operate</span>
-          <h2 className="section-title">Our Global Reach</h2>
+          <span className="section-label">Our Export Markets</span>
+          <h2 className="section-title">Serving International Clients</h2>
           <p className="section-subtitle">
-            Trusted by buyers and suppliers across continents — from our sourcing hub in India to markets worldwide.
+            Our objective is to develop long-term business relationships with international buyers by providing reliable sourcing and transparent trade coordination.
           </p>
         </div>
 

@@ -2,24 +2,29 @@ import './Trade.css';
 
 const SERVICES = [
   {
-    icon: '📥',
-    title: 'Import Services',
-    description: 'End-to-end import support — sourcing, quality checks, and customs clearance handled seamlessly on your behalf.',
+    icon: '🎯',
+    title: 'Client Requirement Based Sourcing',
+    description: 'We understand the buyer\'s exact requirements and identify suitable products and suppliers accordingly.',
   },
   {
-    icon: '📤',
-    title: 'Export Services',
-    description: 'Reliable export of wood, ply, and metal scrap to global markets with full documentation and compliance support.',
-  },
-  {
-    icon: '📋',
-    title: 'Documentation',
-    description: 'We handle all export-import paperwork — invoices, certificates of origin, phytosanitary, and compliance documents.',
+    icon: '🪵',
+    title: 'Wood Scrap Trading',
+    description: 'We facilitate the sourcing and export of wood scrap based on agreed specifications and commercial requirements.',
   },
   {
     icon: '🚢',
-    title: 'Logistics',
-    description: 'Shipping, freight coordination, and port-to-port handling for smooth, on-time delivery every time.',
+    title: 'International Export',
+    description: 'We coordinate the export process from India to international destinations, working with relevant logistics and shipping partners.',
+  },
+  {
+    icon: '🤝',
+    title: 'Supplier & Buyer Coordination',
+    description: 'We act as a bridge between suppliers and international buyers to facilitate smooth commercial transactions.',
+  },
+  {
+    icon: '📋',
+    title: 'Documentation & Logistics Coordination',
+    description: 'We coordinate necessary commercial documentation and shipment-related activities with the respective parties.',
   },
 ];
 
@@ -37,10 +42,10 @@ export default function Trade() {
 
         {/* Header */}
         <div className="trade__header">
-          <span className="section-label">Our Trade Services</span>
-          <h2 className="section-title">Import &amp; Export, End to End</h2>
+          <span className="section-label">What We Do</span>
+          <h2 className="section-title">Professional Trade Coordination</h2>
           <p className="section-subtitle">
-            From sourcing to shipment, we manage every step of the trade process — so you don't have to.
+            From client-specific sourcing to final delivery, we coordinate every stage of the international trade process.
           </p>
         </div>
 

@@ -26,7 +26,7 @@ export default function Footer() {
             <span className="footer__logo-text">Rushiputra Joint Venture</span>
           </div>
           <p className="footer__tagline">
-            Connecting Global Markets with Reliable Indian Supply
+            “Your Requirement. Our Sourcing. Global Delivery.”
           </p>
           <div className="footer__social">
                         <a href="tel:+919033337131" aria-label="Call us" className="footer__social-btn">📞</a>

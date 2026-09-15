@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="hero__content">
           <div className="hero__badge">
             <span className="hero__badge-dot" />
-            Trusted Global Trade Partner
+            Merchant Import &amp; Export · Wood Scrap Trading
           </div>
 
           <h1 className="hero__headline">
@@ -16,8 +16,8 @@ export default function Hero() {
           </h1>
 
           <p className="hero__sub">
-            Trusted importers &amp; exporters of Wood, Metal Scrap, and Building Materials —<br />
-            delivering quality, on time, worldwide.
+            “Your Requirement. Our Sourcing. Global Delivery.” —<br />
+            Specializing in wood scrap trading and client-requirement sourcing from Gandhidham, Gujarat.
           </p>
 
           <div className="hero__actions">

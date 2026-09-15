@@ -2,24 +2,24 @@ import './WhyUs.css';
 
 const REASONS = [
   {
-    icon: '🏆',
-    title: 'Experience',
-    desc: 'Years of hands-on expertise in wood, metal scrap, and building materials trade — we know the market inside out.',
+    icon: '🎯',
+    title: 'Tailored Sourcing',
+    desc: 'Every enquiry is evaluated according to specific client requirements — delivering suitable options rather than a one-size-fits-all solution.',
   },
   {
-    icon: '💰',
-    title: 'Competitive Pricing',
-    desc: 'Fair, transparent pricing on every deal. No hidden margins, no last-minute surprises.',
+    icon: '🤝',
+    title: 'Trust & Transparency',
+    desc: 'Fair, transparent commercial terms and dependable coordination between suppliers and international buyers.',
   },
   {
     icon: '📦',
-    title: 'Reliable Supply',
-    desc: 'Consistent product quality and on-time delivery, shipment after shipment, order after order.',
+    title: 'Quality & Delivery Commitment',
+    desc: 'Materials sourced and supplied according to agreed specifications, quality grades, pricing, packaging, and timelines.',
   },
   {
-    icon: '🌐',
-    title: 'Global Network',
-    desc: 'Strong trade partnerships across India, USA, Panama, Colombia, Kenya, Ecuador, and beyond.',
+    icon: '📍',
+    title: 'Strategic Hub in Gandhidham',
+    desc: 'Located in Gandhidham, Gujarat — one of India’s foremost logistics and commercial hubs for seamless port and shipment coordination.',
   },
 ];
 
