@@ -16,7 +16,7 @@ export default function Hero() {
           </h1>
 
           <p className="hero__sub">
-            Trusted importers &amp; exporters of Wood, Plywood, and Metal Scrap —<br />
+            Trusted importers &amp; exporters of Wood, Metal Scrap, and Building Materials —<br />
             delivering quality, on time, worldwide.
           </p>
 

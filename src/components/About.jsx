@@ -30,8 +30,8 @@ export default function About() {
             A Trusted Name in<br />Global Raw Material Trade
           </h2>
           <p className="about__lead">
-            We are a trusted name in the import-export trade of wood, plywood,
-            and metal scrap. With years of hands-on experience and a strong
+            We are a trusted name in the import-export trade of wood, metal scrap,
+            and building materials. With years of hands-on experience and a strong
             global network, we help businesses source and supply raw materials
             with confidence.
           </p>

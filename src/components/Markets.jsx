@@ -12,7 +12,7 @@ const MARKETS = [
     code: 'us',
     country: 'United States',
     role: 'Premium Buyer Market',
-    desc: 'A key destination for high-grade wood and plywood exports.',
+    desc: 'A key destination for high-grade wood and building materials exports.',
   },
   {
     code: 'pa',
@@ -24,7 +24,7 @@ const MARKETS = [
     code: 'co',
     country: 'Colombia',
     role: 'Growing Export Destination',
-    desc: 'Rapidly growing demand for plywood and metal scrap imports.',
+    desc: 'Rapidly growing demand for metal scrap and building materials imports.',
   },
   {
     code: 'ke',

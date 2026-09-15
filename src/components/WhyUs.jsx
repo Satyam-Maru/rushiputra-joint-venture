@@ -4,7 +4,7 @@ const REASONS = [
   {
     icon: '🏆',
     title: 'Experience',
-    desc: 'Years of hands-on expertise in wood, plywood, and metal scrap trade — we know the market inside out.',
+    desc: 'Years of hands-on expertise in wood, metal scrap, and building materials trade — we know the market inside out.',
   },
   {
     icon: '💰',

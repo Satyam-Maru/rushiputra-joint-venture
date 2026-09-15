@@ -11,15 +11,6 @@ const PRODUCTS = [
     specs: ['Hardwood & Softwood', 'Graded & Certified', 'Multiple Species', 'Custom Sizing'],
   },
   {
-    id: 'plywood',
-    emoji: '🪚',
-    name: 'Plywood',
-    tagline: 'Marine, Commercial & Shuttering',
-    description:
-      'Marine, commercial, and shuttering plywood in multiple sizes and grades — built to international quality standards for every application.',
-    specs: ['Marine Grade', 'Commercial Grade', 'Shuttering Ply', 'ISI & BWR Certified'],
-  },
-  {
     id: 'metal-scrap',
     emoji: '🔩',
     name: 'Metal Scrap',
@@ -27,6 +18,15 @@ const PRODUCTS = [
     description:
       'Ferrous and non-ferrous scrap — including steel, copper, and aluminium — sorted, quality-checked, and ready for export.',
     specs: ['Steel Scrap', 'Copper Scrap', 'Aluminium Scrap', 'Quality Sorted'],
+  },
+  {
+    id: 'building-materials',
+    emoji: '🧱',
+    name: 'Building Materials',
+    tagline: 'Construction & Structural Supplies',
+    description:
+      'High-quality building and construction supplies sourced for structural strength and durability. Dependable bulk supply for commercial and industrial projects.',
+    specs: ['Structural Grade', 'Quality Certified', 'Bulk Supply Available', 'Custom Specifications'],
   },
 ];
 
