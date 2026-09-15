@@ -19,7 +19,7 @@ const REASONS = [
   {
     icon: '🌐',
     title: 'Global Network',
-    desc: 'Strong trade partnerships across India, USA, Panama, Colombia, Kenya, and beyond.',
+    desc: 'Strong trade partnerships across India, USA, Panama, Colombia, Kenya, Ecuador, and beyond.',
   },
 ];
 

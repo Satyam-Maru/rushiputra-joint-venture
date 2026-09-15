@@ -33,10 +33,10 @@ const MARKETS = [
     desc: 'Our gateway into the booming East African raw materials market.',
   },
   {
-    code: null,
-    country: 'More Markets',
-    role: 'Expanding Worldwide',
-    desc: 'Actively expanding into new regions and trade corridors worldwide.',
+    code: 'ec',
+    country: 'Ecuador',
+    role: 'Teak Wood Partner',
+    desc: 'Key sourcing and supply partner for high-grade Teak wood round logs, square logs, and sawn timber.',
   },
 ];
 
