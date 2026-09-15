@@ -2,11 +2,11 @@ import { useState } from 'react';
 import './Gallery.css';
 
 const IMAGES = [
-  { src: '/1.jpeg', label: 'Metal Scrap', tag: 'Shipment'  },
-  { src: '/2.jpeg', label: 'Metal Scrap Yard', tag: 'Products'  },
   { src: '/3.jpeg', label: 'Timber Logs — Container', tag: 'Packaging' },
   { src: '/4.jpeg', label: 'Fresh Cut Timber', tag: 'Products' },
   { src: '/5.jpeg', label: 'Log Loading Operations', tag: 'Shipment' },
+  { src: '/1.jpeg', label: 'Metal Scrap', tag: 'Shipment'  },
+  { src: '/2.jpeg', label: 'Metal Scrap Yard', tag: 'Products'  },
 ];
 
 export default function Gallery() {
