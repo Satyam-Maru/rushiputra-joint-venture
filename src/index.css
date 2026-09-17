@@ -2,9 +2,9 @@
 
 /* ── Design Tokens ─────────────────────────────── */
 :root {
-  --color-white:      #ffffff;
-  --color-bg:         #f8f9fa;
-  --color-surface:    #ffffff;
+  --color-white:      rgba(255, 255, 255, 0.82);
+  --color-bg:         rgba(248, 249, 250, 0.82);
+  --color-surface:    rgba(255, 255, 255, 0.82);
   --color-border:     #e8eaed;
   --color-text:       #1a1a2e;
   --color-muted:      #6b7280;
@@ -36,14 +36,33 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #f8f9fa; /* base page colour, visible through transparent sections */
 }
 
 body {
   font-family: var(--font-body);
-  background: var(--color-bg);
+  background: transparent; /* let html base colour + watermark show through */
   color: var(--color-text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+/* ── Global background watermark logo ─────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url('/rjv_bg_logo.jpeg') center center / contain no-repeat;
+  opacity: 0.45;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Ensure all stacking contexts sit above the watermark */
+#root {
+  position: relative;
+  z-index: 1;
 }
 
 img {
